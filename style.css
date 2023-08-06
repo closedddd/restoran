@@ -11,14 +11,43 @@ body {
     color:#FFF
 }
 .header {
-    display: flex;
-    font-family: Open Sans
+    
+    
    
 }
-
+.item-1:hover{
+   
+        opacity: 0.6;
+      
+}
+.item-2:hover{
+   
+    opacity: 0.6;
+  
+}
+.item-3:hover{
+   
+    opacity: 0.6;
+  
+}
+.item-4:hover{
+   
+    opacity: 0.6;
+  
+}
+.item-5:hover{
+   
+    opacity: 0.6;
+  
+}
+.cart:hover{
+    opacity: 0.6;
+}
+.logo{
+    margin-top: 50px;
+}
 
 .header-two {
-    margin-top: 50px;
     margin-left: 165px;
     display: flex;
     
@@ -27,7 +56,8 @@ body {
     color:#FFF;
 }
 .nav {
-    display: flex;
+    
+
     margin-top: 25px;
     margin-left: 533px;
     
@@ -35,23 +65,73 @@ body {
 .item-1{
     text-decoration: none;
     color:#FFF;
-    margin-left: -267px;
+    width: 68px;
+    height: 19px;
+    top: 74px;
+    left: 533px;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    opacity: 1;
+    transition: 0.2s;
 }
 .item-2{
     text-decoration: none;
     color:#FFF;
-    
-    margin-left: 23px;
+    width: 47px;
+height: 19px;
+top: 74px;
+left: 624px;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+opacity: 1;
+transition: 0.2s;
+  
+
+  
 }
 .item-3{
     text-decoration: none;
     color:#FFF;
-    margin-left: 20px;
+    width: 45px;
+height: 19px;
+top: 74px;
+left: 691px;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+opacity: 1;
+    position: absolute;
+    transition: 0.2s;
 }
 .item-4{
     text-decoration: none;
     color:#FFF;
-    margin-left: 25px;
+    font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+width: 49px;
+height: 19px;
+top: 74px;
+left: 761px;
+opacity: 1;
+    position: absolute;
+    transition: 0.2s;
 }
 .item-5{
    
@@ -61,11 +141,21 @@ body {
         font-size: 20px;
         font-family: monospace;
         padding: 18px 70px;
-        
+      margin-top: 30px;
          margin-left: 330px;
+         position: absolute;
+         margin-top: 20px;
+         opacity: 1;
+         transition: 0.2s;
 }
 .cart{
-    margin-left: 36px;
+    width: 13px;
+    height: 13px;
+    top: 76px;
+    left: 846px;
+    position: absolute;
+    opacity: 1;
+    transition: 0.2s;
 }
 .vl {
     border-left: 1px solid rgb(209, 209, 209);
@@ -79,18 +169,42 @@ body {
        
     
     .number{
-        margin-left: 180px;
-        margin-top: -20px;
+        width: 131px;
+height: 25px;
+top: 55px;
+left: 942px;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+
         position: absolute;
     }
     .phone {   
         position: absolute;
-        margin-left: 150px;
-        margin-top: -24px;
+        width: 23px;
+height: 23px;
+top: 57px;
+left: 911px;
+
     }
     .text{
        
-        margin-left: 75px;
+        width: 154px;
+height: 38px;
+top: 81px;
+left: 914px;
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+
     }
     .hello-one{
    width: 430px;
@@ -1290,4 +1404,4 @@ transition: 0.5s;
     transform: scale(1.1);
     
     }
-   
+    
